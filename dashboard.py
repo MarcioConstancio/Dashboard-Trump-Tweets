@@ -5,6 +5,8 @@ import plotly.express as px
 from collections import Counter
 import plotly.graph_objects as go
 from wordcloud import WordCloud, STOPWORDS
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import re
 
