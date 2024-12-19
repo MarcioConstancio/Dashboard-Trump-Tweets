@@ -9,25 +9,35 @@ Os gráficos apresentados tem o objetivo de responder às seguintes perguntas:
 3. O período eleitoral ou o período em que esteve  na presidência dos Estados Unidos apresenta alguma alteração quanto ao número de *tweets*?
 4. Quais são os *tweets* mais curtidos e quais os mais retuitados?
 
-### Quer clonar este projeto para rodar localmente?
+# Quer clonar este projeto para rodar localmente? Siga os passos a seguir
 
-# Clonar o repositório
+## Clonar o repositório
+```bash
 git clone https://github.com/MarcioConstancio/Dashboard-Trump-Tweets.git
-cd cd Dashboard-Trump-Tweets
+cd Dashboard-Trump-Tweets
+```
 
-# Criar e ativar o ambiente virtual
+## Criar e ativar o ambiente virtual
+``` bash
 python -m venv venv
 source venv/bin/activate  # No Linux/macOS
 venv\Scripts\activate     # No Windows
+```
 
-# Instalar dependências
+## Instalar dependências
+``` bash
 pip install -r requirements.txt
+```
 
-# Para rodar o dashboard localmente
+## Para rodar o dashboard localmente
+``` bash
 streamlit run dashboard.py
+```
 
-# Desativar o ambiente virtual
+## Desativar o ambiente virtual
+``` bash
 deactivate
+```
 
 
 
